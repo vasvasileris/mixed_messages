@@ -1,3 +1,3 @@
 const randomNum = Math.floor(Math.random() * 7);
-const foodChoices = ['Pizza', 'Burger', 'Souvlaki', 'Crepe', 'Salad', 'Indian', 'Chinese'];
-console.log(foodChoices[randomNum]);
+const foodChoices = ['a pizza', 'a burger', 'a souvlaki', 'a crepe', 'a salad', 'Indian', 'Chinese'];
+console.log(`You are eating ${foodChoices[randomNum]} for the night! Enjoy!`);
